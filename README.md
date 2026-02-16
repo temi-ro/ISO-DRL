@@ -32,3 +32,10 @@ While U-Net outperforms DRL on clean data, **PixelDRL-MG demonstrates superior r
 To train the PixelDRL-MG agent with the supervised anchor:
 ```bash
 python training.py --dataset /path/to/brats
+```
+
+To evaluate the PixelDRL-MG agent:
+```bash
+python evaluation.py --data_dir path/to/brats --checkpoint path/to/model.pth
+```
+
